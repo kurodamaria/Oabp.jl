@@ -21,21 +21,3 @@ Supported Dimensions: any.
 \* $w_i = 1 + \frac{x_i - 1}{4}$
 
 \*\*, \*\*\* optima modified to 0
-
-
-## CEC2020 Benchmark Problems from [HardTestProblems.jl](https://github.com/jmejia8/HardTestProblems.jl)
-
-Supported Dimensions: 10, 30, and 50.
-
-| name        | Name                                       | Optima |
-| ----------- | ------------------------------------------ | ------ |
-| cec2020_f1  | Shifted and Rotated Bent Cigar             | 100    |
-| cec2020_f2  | Shifted and Rotated Schwefel               | 1100   |
-| cec2020_f3  | Shifted and Rotated Lunacek bi-Rastrigin   | 700    |
-| cec2020_f4  | Expanded Extended Griewank plus Rosenbrock | 1900   |
-| cec2020_f5  | Hybrid Function 1 (N=3)                    | 1700   |
-| cec2020_f6  | Hybrid Function 2 (N=4)                    | 1600   |
-| cec2020_f7  | Hybrid Function 7 (N=5)                    | 2100   |
-| cec2020_f8  | Composition Function 1 (N=3)               | 2200   |
-| cec2020_f9  | Composition Function 2 (N=4)               | 2400   |
-| cec2020_f10 | Composition Function 3 (N=5)               | 2500   |

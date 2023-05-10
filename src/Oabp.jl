@@ -52,46 +52,6 @@ function trid(x::Vector{Float64})
   return sum((x .- 1) .^ 2) - sum(x[2:end] .* x[1:(end - 1)]) - m
 end
 
-function cec2020_f1(x::Vector{Float64})
-  return HardTestProblems.cec2020_f1(x) - HardTestProblems.get_cec2020_minimum(1)
-end
-
-function cec2020_f2(x::Vector{Float64})
-  return HardTestProblems.cec2020_f2(x) - HardTestProblems.get_cec2020_minimum(2)
-end
-
-function cec2020_f3(x::Vector{Float64})
-  return HardTestProblems.cec2020_f3(x) - HardTestProblems.get_cec2020_minimum(3)
-end
-
-function cec2020_f4(x::Vector{Float64})
-  return HardTestProblems.cec2020_f4(x) - HardTestProblems.get_cec2020_minimum(4)
-end
-
-function cec2020_f5(x::Vector{Float64})
-  return HardTestProblems.cec2020_f5(x) - HardTestProblems.get_cec2020_minimum(5)
-end
-
-function cec2020_f6(x::Vector{Float64})
-  return HardTestProblems.cec2020_f6(x) - HardTestProblems.get_cec2020_minimum(6)
-end
-
-function cec2020_f7(x::Vector{Float64})
-  return HardTestProblems.cec2020_f7(x) - HardTestProblems.get_cec2020_minimum(7)
-end
-
-function cec2020_f8(x::Vector{Float64})
-  return HardTestProblems.cec2020_f8(x) - HardTestProblems.get_cec2020_minimum(8)
-end
-
-function cec2020_f9(x::Vector{Float64})
-  return HardTestProblems.cec2020_f9(x) - HardTestProblems.get_cec2020_minimum(9)
-end
-
-function cec2020_f10(x::Vector{Float64})
-  return HardTestProblems.cec2020_f10(x) - HardTestProblems.get_cec2020_minimum(10)
-end
-
 function get_solution(fn::Function, dimension::Int64)
   if fn == sphere
 	return fill(0.0, dimension)
