@@ -8,6 +8,7 @@ HardTestProblems = "017f2a17-63a9-4ea1-9ce1-f7de69e6e227"
 
 [compat]
 julia = "1"
+HardTestProblems = "0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
